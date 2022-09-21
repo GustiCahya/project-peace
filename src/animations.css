@@ -1,0 +1,27 @@
+@keyframes coinMoveLeft {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(-100px, 50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes coinMoveRight {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(100px, 100px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
